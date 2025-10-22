@@ -1,0 +1,79 @@
+
+
+.logopage{
+    padding: 40px 30px 10px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logopng {
+  width: 80px;         
+  height: auto;
+  padding: 15px 10px;
+ 
+}
+
+.minilogo{
+    width: 35px;
+    height: auto;
+}
+li{
+    list-style: none;
+    
+}
+.endingnav{
+  display: flex;
+  gap: 40px;
+}
+.middlenav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+ 
+    gap: 40px;
+    font-size: 25px;
+}
+.navbar{
+    border-bottom: 2px solid black;
+}
+.alllogo{
+    display: flex;
+    align-items: center;
+
+}
+.logopng1{
+  width: 60px;         
+  height: auto;
+
+}
+.minilogos{
+    padding: 15px 35px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.logopng1 {
+  width: 50px;         
+  height: auto;
+  animation: spin 4s linear infinite; 
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.middlenav li:hover{
+    transition: all 2s;
+transform: translatey(-15px);
+cursor: pointer;
+}
+.li{
+text-decoration: none;
+color: black;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
