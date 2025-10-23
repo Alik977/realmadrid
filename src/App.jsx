@@ -5,20 +5,24 @@ import Realmadridhis from "./components/RealmadridHistory/Realmadridhis.jsx";
 import Users from "./components/Users/Users.jsx";
 import Error from "./components/Error/Error.jsx";
 import Header from "./components/Header/Header.jsx";
+import Players from "./components/Players/Players.jsx";
+import Legends from "./components/Players/Legends.jsx";
 
 import "./App.css";
 
-function App({ users }) {
+function App({ users, players }) {
   return (
     <BrowserRouter>
       <Navbar />
-     
       <Routes>
-         <Route path="/home" element={<Header />} />
+        <Route path="/" element={<Header />} />
+        <Route path="/home" element={<Header />} />
         <Route path="/his" element={<Realmadridhis />} />
+        <Route path="/players/:id" element={<Players players={players} />} />
+        <Route path="/legends" element={<Legends players={players} />} />
         <Route path="/registration" element={<Registration />} />
         <Route path="/user" element={<Users users={users} />} />
-        <Route path="/error" element={<Error />} />
+        <Route path="*" element={<Error />} />
       </Routes>
     </BrowserRouter>
   );

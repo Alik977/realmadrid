@@ -36,7 +36,7 @@
     justify-content: space-around;
 }
 .par2{
-    max-width: 700px ;
+   width: 700px ;
     height: 800px;
 }
 .page3{
@@ -46,7 +46,7 @@
     justify-content: space-around;
 }
 .par3{
-    max-width: 700px ;
+  width: 700px ;
     height: 400px;
 }
 .page4{
@@ -56,7 +56,7 @@
     justify-content: space-around;
 }
 .par4{
-    max-width: 700px ;
+   width: 700px ;
     height: 400px;
 }
 .page5{
@@ -71,6 +71,6 @@
 }
 .img1:hover{
     transition: all 2s;
-    transform: scale(1.1 4);
+    transform: scale(1.1 );
     cursor: pointer;
 }

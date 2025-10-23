@@ -1,0 +1,66 @@
+.player-section {
+  padding: 60px 0;
+ background-image: url(..//..//assets/image/fon.jpg);
+  min-height: 100vh;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.prodBtn {
+  background-color: #0044cc;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.prodBtn:hover {
+  background-color: #002f8a;
+}
+
+.prodBox {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  background-color: white;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.prodImg {
+  width: 320px;
+  height: auto;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+.prodText {
+  flex: 1;
+}
+
+.prodTitle {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #222;
+}
+
+.prodDesc {
+  font-size: 1.1rem;
+  color: #555;
+  line-height: 1.6;
+}
+
+.not-found {
+  text-align: center;
+  margin-top: 60px;
+  font-size: 24px;
+  color: #555;
+}

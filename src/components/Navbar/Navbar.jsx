@@ -26,6 +26,9 @@ function Navbar() {
             <NavLink to="/his" className="li">
               <li>Ակումբի Պատմություն </li>
             </NavLink>
+         <NavLink to="/legends" className="li">
+              <li>Լեգենդների մասին  </li>
+            </NavLink>
             <NavLink to="/error" className="li">
               <li>Կապ Մեզ Հետ</li>
             </NavLink>
